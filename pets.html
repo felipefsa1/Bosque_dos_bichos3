@@ -3,324 +3,782 @@
 
 <head>
 
-    <meta charset="UTF-8">
+  <!-- CONFIGURAÇÃO -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TÍTULO -->
+  <title>Pets | Bosque dos Bichos</title>
 
-    <title>Pets | Bosque dos Bichos</title>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- BOOTSTRAP -->
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <!-- HEADER -->
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/5512999999999" class="whatsapp-float">
+    💬
+  </a>
 
-    <header class="header-petshop">
+  <!-- HEADER -->
+  <header class="header-petshop">
 
-        <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
 
-            <div class="container">
+      <div class="container">
 
-                <!-- LOGO -->
+        <!-- LOGO -->
+        <a class="logo-petshop" href="index.html">
 
-                <a class="logo-petshop" href="index.html">
+          <img src="img/corte-de-cabelo.png" alt="Logo Petshop">
 
-                    <img src="img/corte-de-cabelo.png" alt="Logo">
+          <span>
+            Bosque dos Bichos
+          </span>
 
-                    <span>
-                        Bosque dos Bichos
-                    </span>
+        </a>
 
-                </a>
+        <!-- BOTÃO MOBILE -->
+        <button class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPetshop">
 
-                <!-- BOTÃO MOBILE -->
+          <span class="navbar-toggler-icon"></span>
 
-                <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#menuPet">
+        </button>
 
-                    <span class="navbar-toggler-icon"></span>
+        <!-- MENU -->
+        <div class="collapse navbar-collapse justify-content-end"
+          id="menuPetshop">
 
+          <ul class="navbar-nav align-items-center">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                Início
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active-link" href="pets.html">
+                Pets
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">
+                Produtos
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">
+                Serviços
+              </a>
+            </li>
+
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+              <button class="btn-agendar"
+                data-bs-toggle="modal"
+                data-bs-target="#modalPet">
+
+                Agendar Banho 🐶
+
+              </button>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO PETS -->
+  <section class="hero-pets">
+
+    <div class="container">
+
+      <div class="hero-pets-texto">
+
+        <h1>
+          Conheça nossos pets 🐾
+        </h1>
+
+        <h3>
+          Pets incríveis esperando muito amor e carinho
+        </h3>
+
+      
+  </section>
+
+  <!-- PETS -->
+  <section class="pagina-pets">
+
+    <div class="container">
+
+      <div class="row g-4">
+
+        <!-- PET 1 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              2 anos
+            </div>
+
+            <img src="img/pet1.jpg" alt="Thor">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Thor 🐶
+              </h3>
+
+              <p class="info-pet">
+                Golden Retriever • Macho
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Dócil</span>
+                <span>Vacinado</span>
+                <span>Brincalhão</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Adora brincar, correr e receber carinho.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
                 </button>
 
-                <!-- MENU -->
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
 
-                <div class="collapse navbar-collapse justify-content-end"
-                    id="menuPet">
-
-                    <ul class="navbar-nav align-items-center">
-
-                        <li class="nav-item">
-
-                            <a class="nav-link"
-                                href="index.html">
-
-                                Início
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link active-link"
-                                href="pets.html">
-
-                                Pets
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link"
-                                href="produtos.html">
-
-                                Produtos
-
-                            </a>
-
-                        </li>
-
-                        <li class="nav-item">
-
-                            <a class="nav-link"
-                                href="servicos.html">
-
-                                Serviços
-
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
+              </div>
 
             </div>
 
-        </nav>
-
-    </header>
-
-    <!-- HERO -->
-
-    <section class="hero-pets">
-
-        <div class="container">
-
-            <div class="hero-pets-texto">
-
-                <h1>
-                    Conheça nossos pets 🐾
-                </h1>
-
-                <h3>
-                    Pets carinhosos esperando um novo lar cheio de amor.
-                </h3>
-
-            </div>
-
-            <div class="hero-pets-imagem">
-
-                <img src="img/banner-pets.png" alt="Pets">
-
-            </div>
+          </div>
 
         </div>
 
-    </section>
+        <!-- PET 2 -->
+        <div class="col-lg-4 col-md-6">
 
-    <!-- PETS -->
+          <div class="card-pet">
 
-    <section class="pagina-pets">
+            <div class="idade-pet">
+              1 ano
+            </div>
 
-        <div class="container">
+            <img src="img/gatopersa.jpg" alt="Luna">
 
-            <div class="row g-4">
+            <div class="conteudo-pet">
 
-                <!-- PET 1 -->
+              <h3>
+                Luna 🐱
+              </h3>
 
-                <div class="col-lg-4 col-md-6">
+              <p class="info-pet">
+                Persa • Fêmea
+              </p>
 
-                    <div class="card-pet">
+              <div class="tags-pet">
 
-                        <img src="img/pet1.jpg" alt="Thor">
+                <span>Carinhosa</span>
+                <span>Calma</span>
+                <span>Vacinada</span>
 
-                        <h3>
-                            Thor 🐶
-                        </h3>
+              </div>
 
-                        <p>
-                            Golden Retriever • Macho
-                        </p>
+              <p class="descricao-pet">
+                Muito tranquila e perfeita para ambientes internos.
+              </p>
 
-                        <div class="tags-pet">
+              <div class="rodape-card">
 
-                            <span>Dócil</span>
+                <button class="btn-favorito">
+                  🤍
+                </button>
 
-                            <span>Vacinado</span>
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
 
-                            <span>Brincalhão</span>
-
-                        </div>
-
-                        <p>
-                            Adora brincar, correr e receber carinho.
-                        </p>
-
-                        <button class="btn-adotar">
-
-                            Quero Conhecer
-
-                        </button>
-
-                    </div>
-
-                </div>
-
-                <!-- PET 2 -->
-
-                <div class="col-lg-4 col-md-6">
-
-                    <div class="card-pet">
-
-                        <img src="img/pet2.jpg" alt="Luna">
-
-                        <h3>
-                            Luna 🐱
-                        </h3>
-
-                        <p>
-                            Persa • Fêmea
-                        </p>
-
-                        <div class="tags-pet">
-
-                            <span>Carinhosa</span>
-
-                            <span>Calma</span>
-
-                            <span>Vacinada</span>
-
-                        </div>
-
-                        <p>
-                            Muito tranquila e perfeita para ambientes internos.
-                        </p>
-
-                        <button class="btn-adotar">
-
-                            Quero Conhecer
-
-                        </button>
-
-                    </div>
-
-                </div>
-
-                <!-- PET 3 -->
-
-                <div class="col-lg-4 col-md-6">
-
-                    <div class="card-pet">
-
-                        <img src="img/pet3.jpg" alt="Max">
-
-                        <h3>
-                            Max 🐾
-                        </h3>
-
-                        <p>
-                            SRD • Macho
-                        </p>
-
-                        <div class="tags-pet">
-
-                            <span>Amigável</span>
-
-                            <span>Energia Alta</span>
-
-                            <span>Vacinado</span>
-
-                        </div>
-
-                        <p>
-                            Cheio de energia e ama brincar ao ar livre.
-                        </p>
-
-                        <button class="btn-adotar">
-
-                            Quero Conhecer
-
-                        </button>
-
-                    </div>
-
-                </div>
+              </div>
 
             </div>
 
+          </div>
+
         </div>
 
-    </section>
+        <!-- PET 3 -->
+        <div class="col-lg-4 col-md-6">
 
-    <!-- FOOTER -->
+          <div class="card-pet">
 
-    <footer class="footer-petshop">
+            <div class="idade-pet">
+              3 anos
+            </div>
 
-        <div class="container">
+            <img src="img/viralata.jpg" alt="Max">
 
-            <h3>
-                Bosque dos Bichos 🐾
-            </h3>
+            <div class="conteudo-pet">
 
-            <p>
-                Cuidando do seu melhor amigo com carinho.
-            </p>
+              <h3>
+                Max 🐾
+              </h3>
 
-            <div class="footer-contato">
+              <p class="info-pet">
+                SRD • Macho
+              </p>
 
-                <span>
-                    📞 (12) 99999-9999
-                </span>
+              <div class="tags-pet">
 
-                <span>
-                    📍 São José dos Campos - SP
-                </span>
+                <span>Amigável</span>
+                <span>Energia Alta</span>
+                <span>Vacinado</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Cheio de energia e ama brincar ao ar livre.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
 
             </div>
 
-            <small>
-                © 2026 Todos os direitos reservados
-            </small>
+          </div>
 
         </div>
 
-    </footer>
+        <!-- PET 4 -->
+        <div class="col-lg-4 col-md-6">
 
-    <!-- SCRIPT -->
+          <div class="card-pet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+            <div class="idade-pet">
+              2 anos
+            </div>
+
+            <img src="img/pet4.jpg" alt="Mia">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Mia 🐱
+              </h3>
+
+              <p class="info-pet">
+                Siamês • Fêmea
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Calma</span>
+                <span>Elegante</span>
+                <span>Carinhosa</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Ama dormir no colo e receber carinho.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PET 5 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              4 anos
+            </div>
+
+            <img src="img/pet5.jpg" alt="Bob">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Bob 🐶
+              </h3>
+
+              <p class="info-pet">
+                Labrador • Macho
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Inteligente</span>
+                <span>Dócil</span>
+                <span>Vacinado</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Muito obediente e ótimo com crianças.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PET 6 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              1 ano
+            </div>
+
+            <img src="img/pet6.jpg" alt="Nina">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Nina 🐾
+              </h3>
+
+              <p class="info-pet">
+                SRD • Fêmea
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Brincalhona</span>
+                <span>Pequena</span>
+                <span>Feliz</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Muito alegre e cheia de energia positiva.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PET 7 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              5 meses
+            </div>
+
+            <img src="img/pet7.jpg" alt="Mel">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Mel 🐶
+              </h3>
+
+              <p class="info-pet">
+                Pug • Fêmea
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Carinhosa</span>
+                <span>Pequena</span>
+                <span>Vacinada</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Ama colo e brincar com crianças.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PET 8 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              2 anos
+            </div>
+
+            <img src="img/pet8.jpg" alt="Fred">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Fred 🐾
+              </h3>
+
+              <p class="info-pet">
+                Beagle • Macho
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Brincalhão</span>
+                <span>Energia Alta</span>
+                <span>Amigável</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Adora passeios e correr ao ar livre.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PET 9 -->
+        <div class="col-lg-4 col-md-6">
+
+          <div class="card-pet">
+
+            <div class="idade-pet">
+              1 ano
+            </div>
+
+            <img src="img/pet9.jpg" alt="Lola">
+
+            <div class="conteudo-pet">
+
+              <h3>
+                Lola 🐱
+              </h3>
+
+              <p class="info-pet">
+                Bengal • Fêmea
+              </p>
+
+              <div class="tags-pet">
+
+                <span>Inteligente</span>
+                <span>Curiosa</span>
+                <span>Vacinada</span>
+
+              </div>
+
+              <p class="descricao-pet">
+                Muito ativa e cheia de personalidade.
+              </p>
+
+              <div class="rodape-card">
+
+                <button class="btn-favorito">
+                  🤍
+                </button>
+
+                <button class="btn-adotar">
+                  Quero Conhecer
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-petshop">
+
+    <div class="container">
+
+      <h3>
+        Bosque dos Bichos 🐾
+      </h3>
+
+      <p>
+        Cuidando do seu melhor amigo com carinho,
+        conforto e segurança.
+      </p>
+
+      <div class="footer-contato">
+
+        <span>
+          📞 (12) 3916-6427
+        </span>
+
+        <span>
+          📍 São José dos Campos - SP
+        </span>
+
+      </div>
+
+      <small>
+        © 2026 Todos os direitos reservados
+      </small>
+
+    </div>
+
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal fade"
+    id="modalPet"
+    tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h2 class="modal-title">
+            Agendar Banho 🐶
+          </h2>
+
+          <button type="button"
+            class="btn-close"
+            data-bs-dismiss="modal">
+          </button>
+
+        </div>
+
+        <div class="modal-body">
+
+          <input type="text"
+            class="form-control mb-3"
+            placeholder="Nome do pet">
+
+          <input type="text"
+            class="form-control mb-3"
+            placeholder="Raça do pet">
+
+          <input type="tel"
+            class="form-control mb-3"
+            placeholder="Telefone do responsável">
+
+          <select class="form-select mb-3">
+
+            <option>
+              Porte do pet
+            </option>
+
+            <option>
+              Pequeno
+            </option>
+
+            <option>
+              Médio
+            </option>
+
+            <option>
+              Grande
+            </option>
+
+          </select>
+
+          <select class="form-select mb-3">
+
+            <option>
+              Escolha um serviço
+            </option>
+
+            <option>
+              Banho
+            </option>
+
+            <option>
+              Banho e Tosa
+            </option>
+
+            <option>
+              Consulta Veterinária
+            </option>
+
+          </select>
+
+          <input type="date"
+            class="form-control mb-3">
+
+          <select class="form-select mb-3">
+
+            <option>
+              Escolha um horário
+            </option>
+
+            <option>
+              09:00
+            </option>
+
+            <option>
+              10:30
+            </option>
+
+            <option>
+              13:00
+            </option>
+
+            <option>
+              15:30
+            </option>
+
+            <option>
+              17:00
+            </option>
+
+          </select>
+
+          <textarea class="form-control"
+            rows="4"
+            placeholder="Observações sobre o pet"></textarea>
+
+        </div>
+
+        <div class="modal-footer">
+
+          <button class="btn-modal"
+            onclick="agendarPet()">
+
+            Confirmar Agendamento
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+
+    function agendarPet() {
+
+      alert("Agendamento realizado com sucesso 🐶");
+
+    }
+
+  </script>
 
 </body>
 
