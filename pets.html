@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
@@ -52,18 +52,14 @@
         </a>
 
         <!-- BOTÃO MOBILE -->
-        <button class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#menuPetshop">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPetshop">
 
           <span class="navbar-toggler-icon"></span>
 
         </button>
 
         <!-- MENU -->
-        <div class="collapse navbar-collapse justify-content-end"
-          id="menuPetshop">
+        <div class="collapse navbar-collapse justify-content-end" id="menuPetshop">
 
           <ul class="navbar-nav align-items-center">
 
@@ -93,9 +89,7 @@
 
             <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
 
-              <button class="btn-agendar"
-                data-bs-toggle="modal"
-                data-bs-target="#modalPet">
+              <button class="btn-agendar" data-bs-toggle="modal" data-bs-target="#modalPet">
 
                 Agendar Banho 🐶
 
@@ -124,11 +118,11 @@
           Conheça nossos pets 🐾
         </h1>
 
-        <h3>
-          Pets incríveis esperando muito amor e carinho
-        </h3>
+        <h2> Pets incríveis esperando muito amor e carinho
+        </h2>
+          
 
-      
+
   </section>
 
   <!-- PETS -->
@@ -141,7 +135,7 @@
         <!-- PET 1 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               2 anos
@@ -192,7 +186,7 @@
         <!-- PET 2 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               1 ano
@@ -243,7 +237,7 @@
         <!-- PET 3 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               3 anos
@@ -294,7 +288,7 @@
         <!-- PET 4 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               2 anos
@@ -345,13 +339,17 @@
         <!-- PET 5 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               4 anos
             </div>
 
+
             <img src="img/labrador.jpg" alt="Bob">
+
+       
+
 
             <div class="conteudo-pet">
 
@@ -396,7 +394,7 @@
         <!-- PET 6 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               1 ano
@@ -447,7 +445,7 @@
         <!-- PET 7 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               5 meses
@@ -498,7 +496,7 @@
         <!-- PET 8 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               2 anos
@@ -549,7 +547,7 @@
         <!-- PET 9 -->
         <div class="col-lg-4 col-md-6">
 
-          <div class="card-pet ">
+          <div class="card-pet hidden-card">
 
             <div class="idade-pet">
               1 ano
@@ -638,9 +636,7 @@
   </footer>
 
   <!-- MODAL -->
-  <div class="modal fade"
-    id="modalPet"
-    tabindex="-1">
+  <div class="modal fade" id="modalPet" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered">
 
@@ -652,26 +648,18 @@
             Agendar Banho 🐶
           </h2>
 
-          <button type="button"
-            class="btn-close"
-            data-bs-dismiss="modal">
+          <button type="button" class="btn-close" data-bs-dismiss="modal">
           </button>
 
         </div>
 
         <div class="modal-body">
 
-          <input type="text"
-            class="form-control mb-3"
-            placeholder="Nome do pet">
+          <input type="text" class="form-control mb-3" placeholder="Nome do pet">
 
-          <input type="text"
-            class="form-control mb-3"
-            placeholder="Raça do pet">
+          <input type="text" class="form-control mb-3" placeholder="Raça do pet">
 
-          <input type="tel"
-            class="form-control mb-3"
-            placeholder="Telefone do responsável">
+          <input type="tel" class="form-control mb-3" placeholder="Telefone do responsável">
 
           <select class="form-select mb-3">
 
@@ -713,8 +701,7 @@
 
           </select>
 
-          <input type="date"
-            class="form-control mb-3">
+          <input type="date" class="form-control mb-3">
 
           <select class="form-select mb-3">
 
@@ -744,16 +731,13 @@
 
           </select>
 
-          <textarea class="form-control"
-            rows="4"
-            placeholder="Observações sobre o pet"></textarea>
+          <textarea class="form-control" rows="4" placeholder="Observações sobre o pet"></textarea>
 
         </div>
 
         <div class="modal-footer">
 
-          <button class="btn-modal"
-            onclick="agendarPet()">
+          <button class="btn-modal" onclick="agendarPet()">
 
             Confirmar Agendamento
 

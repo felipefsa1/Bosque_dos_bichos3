@@ -235,6 +235,8 @@ h1,h2,h3{
 
 .cards-servicos{
 
+  
+
   display: flex;
 
   justify-content: center;
@@ -582,7 +584,7 @@ h1,h2,h3{
 
 }
 
-.hero-pets-texto h3{
+.hero-pets-texto h2{
 
   color: #555;
 
@@ -823,11 +825,15 @@ h1,h2,h3{
 }
 
 .banner-servicos h1{
-
-  font-size: 3rem;
+ 
+  font-size: 4rem;
 
   margin-bottom: 20px;
 
+}
+.container h2{
+  margin-top: 100px;
+  color: #555;
 }
 
 .pagina-servicos{
