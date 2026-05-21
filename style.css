@@ -107,15 +107,15 @@ h1,h2,h3{
 
 .nav-link:hover{
 
-  color: #FF914D;
+  color: cadetblue;
 
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 
 }
 
 .active-link{
 
-  color: #FF914D !important;
+  color: black !important;
 
 }
 
@@ -125,7 +125,7 @@ h1,h2,h3{
 
 .btn-agendar{
 
-  background-color: #FF914D;
+  background-color: #097BB8;
 
   color: white;
 
@@ -145,7 +145,7 @@ h1,h2,h3{
 
 .btn-agendar:hover{
 
-  background-color: #E67E3D;
+  background-color: #097BB8;
 
   transform: scale(1.05);
 
@@ -263,7 +263,7 @@ h1,h2,h3{
 
 .card-servico:hover{
 
-  transform: translateY(-10px);
+  transform: translateY(-3px);
 
 }
 
@@ -290,10 +290,13 @@ h1,h2,h3{
   padding: 15px;
 
 }
+.card-servico a{
+  color: white;
+}
 
 .card-servico button{
-
-  background-color: #FF914D;
+  
+  background-color:#097BB8;
 
   color: white;
 
@@ -313,7 +316,7 @@ h1,h2,h3{
 
 .card-servico button:hover{
 
-  background-color: #E67E3D;
+  background-color: #097BB8;
 
   transform: scale(1.05);
 
@@ -487,7 +490,7 @@ h1,h2,h3{
 
 .btn-modal{
 
-  background-color: #FF914D;
+  background-color:#097BB8;
 
   color: white;
 
@@ -505,7 +508,7 @@ h1,h2,h3{
 
 .btn-modal:hover{
 
-  background-color: #E67E3D;
+  background-color: #097BB8;
 
 }
 
@@ -629,9 +632,9 @@ h1,h2,h3{
 
 }
 
-.card-pet:hover{
+.card-pet :hover{
 
-  transform: translateY(-12px);
+  transform: translateY(-3px);
 
 }
 
@@ -667,7 +670,7 @@ h1,h2,h3{
 
   background-color: #FFE7D6;
 
-  color: #FF914D;
+  color:#23463C;
 
   padding: 8px 16px;
 
@@ -681,7 +684,7 @@ h1,h2,h3{
 
 .btn-adotar{
 
-  background-color: #2F5D50;
+  background-color: #097BB8;
 
   color: white;
 
@@ -735,7 +738,7 @@ h1,h2,h3{
 
 .card-produto:hover{
 
-  transform: translateY(-8px);
+  transform: translateY(-3px);
 
 }
 
@@ -755,7 +758,7 @@ h1,h2,h3{
 
 .badge-produto{
 
-  background-color: #FF914D;
+  background-color: #097BB8;
 
   color: white;
 
@@ -782,8 +785,10 @@ h1,h2,h3{
 }
 
 .btn-comprar{
+  
+  margin: 15px;
 
-  background-color: #FF914D;
+  background-color: #097BB8;
 
   color: white;
 
@@ -801,7 +806,7 @@ h1,h2,h3{
 
 .btn-comprar:hover{
 
-  background-color: #E67E3D;
+  background-color: #097BB8;
 
 }
 
@@ -849,7 +854,7 @@ h1,h2,h3{
 
 .card-servico-moderno:hover{
 
-  transform: translateY(-10px);
+  transform: translateY(-3px);
 
 }
 
@@ -895,7 +900,7 @@ h1,h2,h3{
 
   background-color: #FFE7D6;
 
-  color: #FF914D;
+  color:#097BB8;
 
   padding: 10px 18px;
 
@@ -909,7 +914,7 @@ h1,h2,h3{
 
 .btn-servico{
 
-  background-color: #2F5D50;
+  background-color: #097BB8;
 
   color: white;
 
