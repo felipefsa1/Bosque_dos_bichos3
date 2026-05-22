@@ -27,10 +27,7 @@
 
 <body>
 
-  <!-- WHATSAPP -->
-  <a href="https://wa.me/5512999999999" class="whatsapp-float">
-    💬
-  </a>
+ 
 
   <!-- HEADER -->
   <header class="header-petshop">
@@ -635,11 +632,15 @@
   </footer>
 
   <!-- MODAL -->
-  <div class="modal fade" id="modalPet" tabindex="-1">
+   <div class="modal fade"
+    id="modalPet"
+    tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered">
 
       <div class="modal-content">
+
+        <!-- HEADER -->
 
         <div class="modal-header">
 
@@ -647,18 +648,36 @@
             Agendar Banho 🐶
           </h2>
 
-          <button type="button" class="btn-close" data-bs-dismiss="modal">
+          <button type="button"
+            class="btn-close"
+            data-bs-dismiss="modal">
           </button>
 
         </div>
 
+        <!-- BODY -->
+
         <div class="modal-body">
 
-          <input type="text" class="form-control mb-3" placeholder="Nome do pet">
+          <!-- NOME -->
 
-          <input type="text" class="form-control mb-3" placeholder="Raça do pet">
+          <input type="text"
+            class="form-control mb-3"
+            placeholder="Nome do pet">
 
-          <input type="tel" class="form-control mb-3" placeholder="Telefone do responsável">
+          <!-- RAÇA -->
+
+          <input type="text"
+            class="form-control mb-3"
+            placeholder="Raça do pet">
+
+          <!-- TELEFONE -->
+
+          <input type="tel"
+            class="form-control mb-3"
+            placeholder="Telefone do responsável">
+
+          <!-- PORTE -->
 
           <select class="form-select mb-3">
 
@@ -680,6 +699,8 @@
 
           </select>
 
+          <!-- SERVIÇO -->
+
           <select class="form-select mb-3">
 
             <option>
@@ -700,7 +721,12 @@
 
           </select>
 
-          <input type="date" class="form-control mb-3">
+          <!-- DATA -->
+
+          <input type="date"
+            class="form-control mb-3">
+
+          <!-- HORÁRIO -->
 
           <select class="form-select mb-3">
 
@@ -730,13 +756,20 @@
 
           </select>
 
-          <textarea class="form-control" rows="4" placeholder="Observações sobre o pet"></textarea>
+          <!-- OBSERVAÇÕES -->
+
+          <textarea class="form-control"
+            rows="4"
+            placeholder="Observações sobre o pet"></textarea>
 
         </div>
 
+        <!-- FOOTER -->
+
         <div class="modal-footer">
 
-          <button class="btn-modal" onclick="agendarPet()">
+          <button class="btn-modal"
+            onclick="agendarPet()">
 
             Confirmar Agendamento
 
@@ -749,7 +782,6 @@
     </div>
 
   </div>
-
   <!-- SCRIPT -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 

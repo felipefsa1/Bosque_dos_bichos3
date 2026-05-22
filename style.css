@@ -823,13 +823,21 @@ h1,h2,h3{
   padding: 80px 20px;
 
 }
-
 .banner-servicos h1{
+  margin: 2rem;
+
+  font-size: 4.5rem;
+
+  color: #2F5D50;
+
+}
+
+.banner-servicos h2{
  
-  font-size: 4rem;
-
-  margin-bottom: 20px;
-
+  font-size: 2rem;
+  color: #555;
+ margin-top: 200px;
+  
 }
 .container h2{
   margin-top: 100px;
@@ -1009,7 +1017,7 @@ h1,h2,h3{
   .hero-pets-texto h1,
   .banner-servicos h1{
 
-    font-size: 2.2rem;
+    font-size: 3.2rem;
 
   }
 
