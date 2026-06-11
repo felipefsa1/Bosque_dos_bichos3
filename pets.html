@@ -3,24 +3,24 @@
 
 <head>
 
-  <!-- CONFIGURAÇÃO -->
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- TÍTULO -->
+ 
   <title>Pets | Bosque dos Bichos</title>
 
-  <!-- BOOTSTRAP -->
+ 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- GOOGLE FONTS -->
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+ 
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -29,7 +29,7 @@
 
  
 
-  <!-- HEADER -->
+  
   <header class="header-petshop">
 
     <nav class="navbar navbar-expand-lg">
@@ -47,12 +47,7 @@
 
         </a>
 
-        <!-- BOTÃO MOBILE -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPetshop">
-
-          <span class="navbar-toggler-icon"></span>
-
-        </button>
+       
 
         <!-- MENU -->
         <div class="collapse navbar-collapse justify-content-end" id="menuPetshop">
@@ -60,24 +55,28 @@
           <ul class="navbar-nav align-items-center">
 
             <li class="nav-item">
+              <!-- Home -->
               <a class="nav-link" href="index.html">
                 Início
               </a>
             </li>
 
             <li class="nav-item">
+              <!-- Pets -->
               <a class="nav-link active-link" href="pets.html">
                 Pets
               </a>
             </li>
 
             <li class="nav-item">
+              <!-- Products -->
               <a class="nav-link" href="produtos.html">
                 Produtos
               </a>
             </li>
 
             <li class="nav-item">
+              <!-- Services -->
               <a class="nav-link" href="servicos.html">
                 Serviços
               </a>
@@ -103,44 +102,61 @@
 
   </header>
 
-  <!-- HERO PETS -->
+  <!-- HERO -->
+
   <section class="hero-pets">
 
+    <!-- Wrap -->
     <div class="container">
 
+      <!-- Text -->
       <div class="hero-pets-texto">
 
+        <!-- Title -->
         <h1>
           Conheça nossos pets 🐾
         </h1>
 
-        <h2> Pets incríveis esperando muito amor e carinho
+        <!-- Subtitle -->
+        <h2> 
+          Pets incríveis esperando muito amor e carinho
         </h2>
-          
 
+      </div>
+
+    </div>
 
   </section>
 
   <!-- PETS -->
+
   <section class="pagina-pets">
 
+    <!-- Wrap -->
     <div class="container">
 
+      <!-- Grid -->
       <div class="row g-4">
 
         <!-- PET 1 -->
+
         <div class="col-lg-4 col-md-6">
 
+          <!-- Card -->
           <div class="card-pet hidden-card">
 
+            <!-- Age -->
             <div class="idade-pet">
               2 anos
             </div>
 
+            <!-- Image -->
             <img src="img/pet1.jpg" alt="Thor">
 
+            <!-- Info -->
             <div class="conteudo-pet">
 
+              <!-- Name -->
               <h3>
                 Thor 🐶
               </h3>
@@ -341,11 +357,7 @@
               4 anos
             </div>
 
-
             <img src="img/labrador.jpg" alt="Bob">
-
-       
-
 
             <div class="conteudo-pet">
 
@@ -661,12 +673,12 @@
 
           <!-- NOME -->
 
+          <!-- Name -->
           <input type="text"
             class="form-control mb-3"
             placeholder="Nome do pet">
 
-          <!-- RAÇA -->
-
+          <!-- Breed -->
           <input type="text"
             class="form-control mb-3"
             placeholder="Raça do pet">
@@ -782,18 +794,8 @@
     </div>
 
   </div>
-  <!-- SCRIPT -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-
-    function agendarPet() {
-
-      alert("Agendamento realizado com sucesso 🐶");
-
-    }
-
-  </script>
+  <script src="js/script.js"></script>
 
 </body>
 

@@ -1,67 +1,52 @@
-/* ========================================= */
-/* RESET */
-/* ========================================= */
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ========================================= */
-/* BODY */
-/* ========================================= */
 
-body{
+body {
 
   font-family: 'Poppins', sans-serif;
 
+  
   background-color: #F5F1E8;
 
-  background-image:
-  radial-gradient(circle at top left, #ffffff 0%, transparent 25%),
-  radial-gradient(circle at bottom right, #ffe7d6 0%, transparent 25%);
-
+  
 }
 
-/* ========================================= */
-/* TEXTOS */
-/* ========================================= */
 
-p{
+p {
   color: #555;
   line-height: 1.7;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   color: #2F5D50;
 }
 
-/* ========================================= */
-/* HEADER */
-/* ========================================= */
 
-.header-petshop{
+.header-petshop {
 
   background-color: #2F5D50;
 
   padding: 15px 0;
 
+ 
   position: sticky;
 
   top: 0;
 
   z-index: 1000;
 
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
 }
 
-/* ========================================= */
-/* LOGO */
-/* ========================================= */
 
-.logo-petshop{
+.logo-petshop {
 
   display: flex;
 
@@ -73,13 +58,14 @@ h1,h2,h3{
 
 }
 
-.logo-petshop img{
+
+.logo-petshop img {
 
   width: 50px;
 
 }
 
-.logo-petshop span{
+.logo-petshop span {
 
   color: white;
 
@@ -89,11 +75,8 @@ h1,h2,h3{
 
 }
 
-/* ========================================= */
-/* MENU */
-/* ========================================= */
 
-.nav-link{
+.nav-link {
 
   color: white;
 
@@ -101,11 +84,13 @@ h1,h2,h3{
 
   margin-left: 15px;
 
+  
   transition: 0.3s;
 
 }
 
-.nav-link:hover{
+
+.nav-link:hover {
 
   color: cadetblue;
 
@@ -113,17 +98,15 @@ h1,h2,h3{
 
 }
 
-.active-link{
+
+.active-link {
 
   color: black !important;
 
 }
 
-/* ========================================= */
-/* BOTÃO */
-/* ========================================= */
 
-.btn-agendar{
+.btn-agendar {
 
   background-color: #097BB8;
 
@@ -143,25 +126,23 @@ h1,h2,h3{
 
 }
 
-.btn-agendar:hover{
-
-  background-color: #097BB8;
+.btn-agendar:hover {
 
   transform: scale(1.05);
 
 }
 
-/* ========================================= */
-/* HERO */
-/* ========================================= */
 
-.hero-petshop{
+
+
+.hero-petshop {
 
   padding: 100px 0;
 
 }
 
-.hero-texto h1{
+
+.hero-texto h1 {
 
   font-size: 3.2rem;
 
@@ -171,7 +152,8 @@ h1,h2,h3{
 
 }
 
-.hero-texto p{
+
+.hero-texto p {
 
   font-size: 1.1rem;
 
@@ -179,7 +161,8 @@ h1,h2,h3{
 
 }
 
-.hero-beneficios{
+
+.hero-beneficios {
 
   display: flex;
 
@@ -189,7 +172,8 @@ h1,h2,h3{
 
 }
 
-.hero-beneficios span{
+
+.hero-beneficios span {
 
   background-color: white;
 
@@ -197,11 +181,12 @@ h1,h2,h3{
 
   border-radius: 30px;
 
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 
 }
 
-.hero-imagem img{
+
+.hero-imagem img {
 
   width: 100%;
 
@@ -209,15 +194,16 @@ h1,h2,h3{
 
   border-radius: 30px;
 
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 
 }
 
-/* ========================================= */
-/* SERVIÇOS */
-/* ========================================= */
 
-.servicos{
+/* SERVIÇOS */
+
+
+
+.servicos {
 
   padding: 80px 10%;
 
@@ -225,7 +211,8 @@ h1,h2,h3{
 
 }
 
-.servicos h2{
+
+.servicos h2 {
 
   font-size: 2.5rem;
 
@@ -233,9 +220,10 @@ h1,h2,h3{
 
 }
 
-.cards-servicos{
 
-  
+.cards-servicos {
+
+
 
   display: flex;
 
@@ -247,7 +235,8 @@ h1,h2,h3{
 
 }
 
-.card-servico{
+
+.card-servico {
 
   width: 350px;
 
@@ -257,19 +246,20 @@ h1,h2,h3{
 
   overflow: hidden;
 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 
   transition: 0.3s;
 
 }
 
-.card-servico:hover{
+
+.card-servico:hover {
 
   transform: translateY(-3px);
 
 }
 
-.card-servico img{
+.card-servico img {
 
   width: 100%;
 
@@ -279,7 +269,8 @@ h1,h2,h3{
 
 }
 
-.card-servico h3{
+
+.card-servico h3 {
 
   margin-top: 20px;
 
@@ -287,18 +278,20 @@ h1,h2,h3{
 
 }
 
-.card-servico p{
+
+.card-servico p {
 
   padding: 15px;
 
 }
-.card-servico a{
+
+.card-servico a {
   color: white;
 }
 
-.card-servico button{
-  
-  background-color:#097BB8;
+.card-servico button {
+
+  background-color: #097BB8;
 
   color: white;
 
@@ -316,25 +309,25 @@ h1,h2,h3{
 
 }
 
-.card-servico button:hover{
 
-  background-color: #097BB8;
+.card-servico button:hover {
 
   transform: scale(1.05);
 
 }
 
-/* ========================================= */
-/* CARROSSEL */
-/* ========================================= */
 
-.carrossel-petshop{
+/* CARROSSEL */
+
+
+
+.carrossel-petshop {
 
   padding-bottom: 60px;
 
 }
 
-.carousel-item{
+.carousel-item {
 
   height: 600px;
 
@@ -344,7 +337,8 @@ h1,h2,h3{
 
 }
 
-.imagem-carrossel{
+
+.imagem-carrossel {
 
   width: 80%;
 
@@ -360,9 +354,10 @@ h1,h2,h3{
 
 }
 
-.carousel-caption{
 
-  background-color: rgba(255,255,255,0.95);
+.carousel-caption {
+
+  background-color: rgba(255, 255, 255, 0.95);
 
   padding: 30px;
 
@@ -374,20 +369,21 @@ h1,h2,h3{
 
   bottom: 50px;
 
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 
 }
 
-.carousel-caption h2{
+
+.carousel-caption h2 {
 
   font-size: 2rem;
 
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon{
+.carousel-control-next-icon {
 
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 
   border-radius: 50%;
 
@@ -395,11 +391,12 @@ h1,h2,h3{
 
 }
 
-/* ========================================= */
-/* FOOTER */
-/* ========================================= */
 
-.footer-petshop{
+/* FOOTER */
+
+
+
+.footer-petshop {
 
   background-color: #2F5D50;
 
@@ -409,7 +406,8 @@ h1,h2,h3{
 
 }
 
-.footer-petshop h3{
+
+.footer-petshop h3 {
 
   color: white;
 
@@ -419,7 +417,8 @@ h1,h2,h3{
 
 }
 
-.footer-petshop p{
+
+.footer-petshop p {
 
   color: #d9f5f6;
 
@@ -427,7 +426,8 @@ h1,h2,h3{
 
 }
 
-.footer-contato{
+
+.footer-contato {
 
   display: flex;
 
@@ -443,17 +443,17 @@ h1,h2,h3{
 
 }
 
-.footer-petshop small{
+
+.footer-petshop small {
 
   color: #d9f5f6;
 
 }
 
-/* ========================================= */
-/* MODAL */
-/* ========================================= */
 
-.modal-content{
+/* MODAL */
+
+.modal-content {
 
   border-radius: 25px;
 
@@ -461,7 +461,8 @@ h1,h2,h3{
 
 }
 
-.modal-header{
+
+.modal-header {
 
   background-color: #2F5D50;
 
@@ -469,14 +470,16 @@ h1,h2,h3{
 
 }
 
-.modal-body{
+
+.modal-body {
 
   padding: 30px;
 
 }
 
+/* FORM */
 .form-control,
-.form-select{
+.form-select {
 
   padding: 12px;
 
@@ -484,15 +487,17 @@ h1,h2,h3{
 
 }
 
-.modal-footer{
+/* MODAL FOOTER */
+.modal-footer {
 
   border-top: none;
 
 }
 
-.btn-modal{
 
-  background-color:#097BB8;
+.btn-modal {
+
+  background-color: #097BB8;
 
   color: white;
 
@@ -508,75 +513,34 @@ h1,h2,h3{
 
 }
 
-.btn-modal:hover{
 
-  background-color: #097BB8;
+.btn-modal:hover {
 
-}
-
-/* ========================================= */
-/* WHATSAPP */
-/* ========================================= */
-
-.whatsapp-float{
-
-  position: fixed;
-
-  bottom: 20px;
-
-  right: 20px;
-
-  width: 65px;
-
-  height: 65px;
-
-  background-color: #25D366;
-
-  color: white;
-
-  border-radius: 50%;
-
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-
-  font-size: 2rem;
-
-  text-decoration: none;
-
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-
-  z-index: 999;
-
-  transition: 0.3s;
+  transform: scale(1.02);
 
 }
 
-.whatsapp-float:hover{
 
-  transform: scale(1.1);
 
-}
-
-/* ========================================= */
 /* PETS */
-/* ========================================= */
 
-.hero-pets{
+
+
+.hero-pets {
 
   padding: 80px 0;
 
 }
 
-.hero-pets-texto{
+
+.hero-pets-texto {
 
   text-align: center;
 
 }
 
-.hero-pets-texto h1{
+
+.hero-pets-texto h1 {
 
   font-size: 3rem;
 
@@ -584,63 +548,36 @@ h1,h2,h3{
 
 }
 
-.hero-pets-texto h2{
+
+.hero-pets-texto h2 {
 
   color: #555;
 
 }
 
-.hero-pets-imagem{
-
-  display: flex;
-
-  justify-content: center;
-
-  margin-top: 40px;
-
-}
-
-.hero-pets-imagem img{
-
-  width: 100%;
-
-  max-width: 700px;
-
-}
-
-.pagina-pets{
-
-  padding: 70px 0;
-
-}
-
-.card-pet{
+.card-pet {
 
   background-color: white;
 
-  border-radius: 30px;
+  border-radius: 25px;
 
-  padding: 18px;
+  padding: 20px;
 
   text-align: center;
 
-  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 
-  height: 100%;
-
-  transition: 0.4s;
-
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
 
 }
 
-.card-pet :hover{
+.card-pet:hover {
 
   transform: translateY(-3px);
 
 }
 
-.card-pet img{
+.card-pet img {
 
   width: 100%;
 
@@ -654,7 +591,7 @@ h1,h2,h3{
 
 }
 
-.tags-pet{
+.tags-pet {
 
   display: flex;
 
@@ -668,11 +605,11 @@ h1,h2,h3{
 
 }
 
-.tags-pet span{
+.tags-pet span {
 
   background-color: #FFE7D6;
 
-  color:#23463C;
+  color: #23463C;
 
   padding: 8px 16px;
 
@@ -684,7 +621,7 @@ h1,h2,h3{
 
 }
 
-.btn-adotar{
+.btn-adotar {
 
   background-color: #097BB8;
 
@@ -702,7 +639,7 @@ h1,h2,h3{
 
 }
 
-.btn-adotar:hover{
+.btn-adotar:hover {
 
   background-color: #23463C;
 
@@ -710,17 +647,15 @@ h1,h2,h3{
 
 }
 
-/* ========================================= */
-/* PRODUTOS */
-/* ========================================= */
 
-.pagina-produtos{
+/* PRODUTOS */
+.pagina-produtos {
 
   padding: 80px 0;
 
 }
 
-.card-produto{
+.card-produto {
 
   background-color: white;
 
@@ -730,7 +665,7 @@ h1,h2,h3{
 
   text-align: center;
 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 
   transition: 0.3s;
 
@@ -738,13 +673,13 @@ h1,h2,h3{
 
 }
 
-.card-produto:hover{
+.card-produto:hover {
 
   transform: translateY(-3px);
 
 }
 
-.card-produto img{
+.card-produto img {
 
   width: 100%;
 
@@ -758,7 +693,7 @@ h1,h2,h3{
 
 }
 
-.badge-produto{
+.badge-produto {
 
   background-color: #097BB8;
 
@@ -778,7 +713,7 @@ h1,h2,h3{
 
 }
 
-.avaliacao-produto{
+.avaliacao-produto {
 
   font-size: 1.1rem;
 
@@ -786,8 +721,8 @@ h1,h2,h3{
 
 }
 
-.btn-comprar{
-  
+.btn-comprar {
+
   margin: 15px;
 
   background-color: #097BB8;
@@ -806,24 +741,18 @@ h1,h2,h3{
 
 }
 
-.btn-comprar:hover{
 
-  background-color: #097BB8;
-
-}
-
-/* ========================================= */
 /* SERVIÇOS */
-/* ========================================= */
 
-.banner-servicos{
+.banner-servicos {
 
   text-align: center;
 
   padding: 80px 20px;
 
 }
-.banner-servicos h1{
+
+.banner-servicos h1 {
   margin: 2rem;
 
   font-size: 4.5rem;
@@ -832,33 +761,29 @@ h1,h2,h3{
 
 }
 
-.banner-servicos h2{
- 
+.banner-servicos h2 {
+
   font-size: 2rem;
   color: #555;
- margin-top: 200px;
-  
-}
-.container h2{
-  margin-top: 100px;
-  color: #555;
+  margin-top: 200px;
+
 }
 
-.pagina-servicos{
+.pagina-servicos {
 
   padding: 80px 0;
 
 }
 
-.card-servico-moderno{
+.card-servico-moderno {
 
   background-color: white;
 
   border-radius: 30px;
 
-  overflow: hidden;
 
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 
   transition: 0.4s;
 
@@ -866,13 +791,13 @@ h1,h2,h3{
 
 }
 
-.card-servico-moderno:hover{
+.card-servico-moderno:hover {
 
   transform: translateY(-3px);
 
 }
 
-.card-servico-moderno img{
+.card-servico-moderno img {
 
   width: 100%;
 
@@ -882,7 +807,8 @@ h1,h2,h3{
 
 }
 
-.conteudo-servico{
+
+.conteudo-servico {
 
   padding: 25px;
 
@@ -890,7 +816,8 @@ h1,h2,h3{
 
 }
 
-.icone-servico{
+
+.icone-servico {
 
   font-size: 2.5rem;
 
@@ -898,7 +825,7 @@ h1,h2,h3{
 
 }
 
-.lista-servicos{
+.lista-servicos {
 
   list-style: none;
 
@@ -908,13 +835,13 @@ h1,h2,h3{
 
 }
 
-.preco-servico{
+.preco-servico {
 
   display: inline-block;
 
   background-color: #FFE7D6;
 
-  color:#097BB8;
+  color: #097BB8;
 
   padding: 10px 18px;
 
@@ -926,7 +853,7 @@ h1,h2,h3{
 
 }
 
-.btn-servico{
+.btn-servico {
 
   background-color: #097BB8;
 
@@ -944,7 +871,7 @@ h1,h2,h3{
 
 }
 
-.btn-servico:hover{
+.btn-servico:hover {
 
   background-color: #23463C;
 
@@ -952,13 +879,11 @@ h1,h2,h3{
 
 }
 
-/* ========================================= */
-/* RESPONSIVO */
-/* ========================================= */
 
-@media(max-width:768px){
 
-  .hero-petshop{
+@media(max-width:768px) {
+
+  .hero-petshop {
 
     text-align: center;
 
@@ -966,25 +891,25 @@ h1,h2,h3{
 
   }
 
-  .hero-texto h1{
+  .hero-texto h1 {
 
     font-size: 2.3rem;
 
   }
 
-  .hero-beneficios{
+  .hero-beneficios {
 
     justify-content: center;
 
   }
 
-  .hero-imagem{
+  .hero-imagem {
 
     margin-top: 40px;
 
   }
 
-  .cards-servicos{
+  .cards-servicos {
 
     flex-direction: column;
 
@@ -992,13 +917,13 @@ h1,h2,h3{
 
   }
 
-  .carousel-item{
+  .carousel-item {
 
     height: auto;
 
   }
 
-  .imagem-carrossel{
+  .imagem-carrossel {
 
     width: 100%;
 
@@ -1006,7 +931,7 @@ h1,h2,h3{
 
   }
 
-  .carousel-caption{
+  .carousel-caption {
 
     position: static;
 
@@ -1015,7 +940,7 @@ h1,h2,h3{
   }
 
   .hero-pets-texto h1,
-  .banner-servicos h1{
+  .banner-servicos h1 {
 
     font-size: 3.2rem;
 
